@@ -1,9 +1,9 @@
 #include <stdio.h>
-#include <stdlib.h>
+#include <string.h>
 
 
 void changeDigits(char str[]){
-    int lenght = strlen(str), tmp = 0;
+    int lenght = strlen(str);
     for (int i = 0; i < lenght; i++){
         if (str[i] != '9') {
             str[i] = str[i] + 1;
